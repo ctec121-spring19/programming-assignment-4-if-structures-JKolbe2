@@ -2,10 +2,15 @@
 #   Programming Assignment 4
 #     Prob-5.py
 
-# <YOUR NAME>
+# <Jeremy>
 
 def main():
-    x = eval(2)
-    print("x:", x)
+    try:
+         x = eval(2)
+         
+    except:
+        print("There was a eval 2 error. Exiting.")
+        exit
+
 
 main()
